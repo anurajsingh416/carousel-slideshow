@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Slider</title>
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body onload="start()">
+    <h1>Stranger Things</h1>
+        <div class="carouselContainer">
+            <img src="stposter.jpg" alt="" class="slides " id="firstslide">
+            <img src="nancy.jpg" alt="" class="slides ">
+            <img src="max.jpg" alt="" class="slides ">
+            <img src="eleven.jpg" alt="" class="slides ">
+            <img src="hopper.jpg" alt=""  class="slides " id="lastslide">
+        </div>
+    <button class="button" id="prev" onclick="before()">PREV</button>
+    <button class="button" id="next" onclick="after()">NEXT</button>
+    <button class="button" id="start" onclick="start()">START</button>
+    <button class="button" id="stop" onclick="stop()">STOP</button>
+    <script src="slideshow.js"></script>
+</body>
+</html>
